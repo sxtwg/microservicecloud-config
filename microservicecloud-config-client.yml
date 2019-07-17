@@ -1,7 +1,7 @@
 spring:
   profiles: dev #开发环境
   application:
-    name: microservicecloud-config-client
+    name: microservicecloud-config-client-dev
 eureka:
   client:
     service-url:
@@ -12,7 +12,7 @@ server:
 spring:
   profiles: test #测试环境
   application:
-    name: microservicecloud-config-client
+    name: microservicecloud-config-client-test
 eureka:
   client:
     service-url:
